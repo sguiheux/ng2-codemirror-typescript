@@ -1,0 +1,28 @@
+{
+  "name": "ng2-codemirror-typescript",
+  "version": "1.0.1",
+  "description": "Angular2 Codemirror component",
+  "main": "./Codemirror.ts",
+  "typings": "./Codemirror.d.ts",
+  "scripts": {},
+  "keywords": [
+    "angular",
+    "angular2",
+    "component",
+    "codemirror"
+  ],
+  "author": "Steven Guiheux",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sguiheux/ng2-codemirror-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sguiheux/ng2-codemirror-typescript/issues"
+  },
+  "homepage": "https://github.com/sguiheux/ng2-codemirror-typescript#readme",
+  "dependencies": {
+    "@angular/core": "^2.4.1",
+    "@angular/forms": "^2.4.1"
+  }
+}

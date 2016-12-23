@@ -1,0 +1,27 @@
+// Imports
+import {
+  EventEmitter
+} from '@angular/core';
+import { ControlValueAccessor } from '@angular/forms';
+
+/**
+* Codemirror component
+*/
+export declare class CodemirrorComponent implements ControlValueAccessor {
+
+  value:any;
+  change:EventEmitter<any>;
+
+  constructor();
+  codemirrorInit(config:any):void;
+  updateValue(value:String):void;
+
+  // ControlValueAccessor
+  writeValue(value:any):void;
+  onChange(_:any):void;
+  registerOnChange(fn:Function):void;
+  registerOnTouched(fn:Function):void;
+
+}
+
+export declare class CodemirrorModule {}
