@@ -21,7 +21,7 @@ Then you need to include base CSS of codemirror located in `codemirror/lib/codem
 Include `CodemirrorModule` in your main module :
 
 ```javascript
-import {CodemirrorModule} from 'ng2-codemirror';
+import {CodemirrorModule} from 'ng2-codemirror/Codemirror';
 
 @NgModule({
   // ...
