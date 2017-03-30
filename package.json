@@ -1,6 +1,6 @@
 {
   "name": "ng2-codemirror-typescript",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Angular2 Codemirror component",
   "main": "./Codemirror.ts",
   "typings": "./Codemirror.d.ts",
@@ -21,7 +21,7 @@
     "url": "https://github.com/sguiheux/ng2-codemirror-typescript/issues"
   },
   "homepage": "https://github.com/sguiheux/ng2-codemirror-typescript#readme",
-  "dependencies": {
+  "peerDependencies": {
     "@angular/core": "^2.4.1",
     "@angular/forms": "^2.4.1"
   }
