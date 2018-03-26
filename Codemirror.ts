@@ -18,11 +18,12 @@ declare var CodeMirror: any;
             multi: true
         }
     ],
-    template: `<textarea #host></textarea>`,
+    template: `<textarea [placeholder]="placeholder" #host></textarea>`,
 })
 export class CodemirrorComponent {
 
     @Input() config;
+    @Input() placeholder = '';
 
     @Output() change = new EventEmitter();
     editor;

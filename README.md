@@ -16,6 +16,8 @@ CodeMirror need to be accessible by `import 'codemirror'`
 
 Then you need to include base CSS of codemirror located in `codemirror/lib/codemirror.css`
 
+Pay attention, if you want to use placeholder you need to import `codemirror/addon/display/placeholder.js`
+
 ### <a name="sample"></a>Sample (ES2016+)
 
 Include `CodemirrorModule` in your main module :
@@ -38,7 +40,7 @@ import {Component} from 'angular2/core';
 
 @Component({
   selector: 'sample',
-  template: `<codemirror [(ngModel)]="code" [config]="{...}"></codemirror>`
+  template: `<codemirror [(ngModel)]="code" [config]="{...}" placeholder="Here is the code placeholder"></codemirror>`
 })
 export class Sample{
   constructor(){
