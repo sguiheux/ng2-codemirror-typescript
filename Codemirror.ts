@@ -27,7 +27,7 @@ export class CodemirrorComponent {
 
     @Output() change = new EventEmitter();
     editor;
-    @ViewChild('host') host;
+    @ViewChild('host', {static: false}) host;
 
     _value = '';
     @Output() instance = null;
