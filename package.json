@@ -1,6 +1,6 @@
 {
   "name": "ng2-codemirror-typescript",
-  "version": "3.0.1",
+  "version": "3.13.0",
   "description": "Angular2 Codemirror component",
   "main": "./Codemirror.ts",
   "typings": "./Codemirror.d.ts",
